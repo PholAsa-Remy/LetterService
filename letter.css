@@ -1,0 +1,133 @@
+#content{
+    font-family: 'Source Serif Pro', serif;
+    color: #555555;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+
+h1{
+    display: inline-block;
+    border-bottom: 1px solid #555555;
+    padding-bottom: 1em;
+    width: 150vh;
+    font-size: 2.5em;
+    margin:0.5 0.5em;
+}
+
+p{
+    margin:0;
+}
+
+#description{
+    display: block;
+    margin-top:0em;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+
+#functionality{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+}
+
+.function{
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0 8em;
+}
+
+.function h2{
+    color: #000000;
+    font-size: 1.7em;
+    margin-top : 0;
+    margin-bottom: 1em;
+}
+
+.function p{
+    margin-bottom: 3em;
+}
+
+.function a{
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#F3F8FF;
+    background-color: #184D9B;
+    font-size: 1em;
+    border-radius: 5px;
+    padding: 0.5em 5em;
+    width: 4em;
+}
+
+#send{
+    border-right: 1px solid #555555;
+}
+
+#thanks{
+    margin-top:3em;
+    justify-items: flex-end;
+    font-size: 1.5em;
+}
+
+#sheet{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    width: 50em;
+    height: 17em;
+    padding: 0.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 2px #555555;
+    margin-bottom: 1em;
+}
+
+form, #letter{
+    display: flex;
+    flex-direction: column;
+}
+
+.letter_button{
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    background-color: #184D9B;
+    color:#F3F8FF;
+    font-size: 1em;
+    width: 10em;
+    height: 2em;
+    align-self: flex-end;
+}
+
+label{
+    display: none;
+}
+
+#letter_title,#letter_content{
+    display: block;
+    border:none;
+    font-family: 'Source Serif Pro', serif;
+    font-size:1.5em;
+    margin: 0.5em auto;
+    text-align: center;
+    width: 20em;
+    color: #555555;
+}
+
+#letter_content{
+    width: 80%;
+    height:60%;
+    resize: none;
+    font-size: 1em;
+    text-align:center;
+}
+
+#functionality a:hover,.letter_button:hover{
+    background-color: #52189B;
+}
